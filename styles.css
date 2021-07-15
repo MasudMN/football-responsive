@@ -6,6 +6,7 @@ html {
     font-family: 'Poppins', sans-serif;
     padding: 0;
 	margin: 0;
+
 }
 
 
@@ -52,6 +53,7 @@ html {
 }
 
 .Watch-Now:hover{
+    
     background-color: honeydew;
     border-radius: 12px;
     color: rgb(26, 25, 25);
@@ -146,7 +148,6 @@ p{
 }
 
 
-
 .highlight{
     display: flex;
     flex-direction: column;
@@ -190,10 +191,8 @@ p{
 /* start footer */
 
 .logo-dimension{
-height: 100px;
+height: 90px;
 }
-
-
 
 .all-icons {
     font-size: 28px;
