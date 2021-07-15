@@ -1,0 +1,219 @@
+/* font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+html {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+	margin: 0;
+}
+
+
+/* nav{
+    flex-direction: column;
+    display: inline-block;
+    align-items: center;
+}
+
+
+
+
+/* start first section  */
+
+.container-1 {
+    background: #2D25A0;
+    width: 1440px;
+    height: 677px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.main-player-image img {
+    justify-content: center;
+    height: 400px;
+    width: 300;
+    }
+
+.main-title {
+  font-size: 50px;        
+  color: rgb(255, 255, 255);
+ }
+      
+.Watch-Now {
+    background-color: #E02C6D;
+    color: white;
+    text-align: center;
+    width: 140px;
+    height: 44px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 24px;
+}
+
+.Watch-Now:hover{
+    background-color: honeydew;
+    border-radius: 12px;
+    color: rgb(26, 25, 25);
+    text-align: center;
+}
+
+
+/* end first section  */
+
+
+
+/* start second section 
+**********************/
+
+
+.player-info img {
+    left: 180px;
+    top: 747px;
+    width: 300px; 
+    height: 256px;
+    padding-left: 15px;
+}
+
+
+.players {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+.player-info img> h3 p{
+margin-top: 15px;
+}
+
+
+.margin-for-title-and-h3 {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+
+p{
+    margin-top: 0%;
+    padding-right: 70px;
+
+}
+
+
+.player-info h3 {
+    font-style: normal;
+    font-weight: 700px;
+    color: #18191F
+    
+}
+
+
+.palyers .player-info p{
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 28px;
+    color: #18191F;
+}
+
+
+.container-2 .players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-self: center;
+    /* gap: 20px; */
+    padding: 30px 60px;
+}
+
+
+/* end second section 
+
+
+
+
+/* third section  start
+**********************/
+
+
+.section-3 {
+    color: rgb(0, 0, 0);
+	display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: row;
+    /* justify-content:space-between; */
+
+}
+
+
+
+.highlight{
+    display: flex;
+    flex-direction: column;
+    padding-right: 156px;
+    padding-top: 156px;
+    padding-left: 50px;
+
+}
+
+.Watch-live{
+    background-color: #E02C6D;
+    color: white;
+    text-align: center;
+    width: 140px;
+    height: 44px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 24px;
+}
+
+.Watch-live:hover{
+    background: none;
+    border: 2px solid #E02C6D;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.tow-lpayers img{
+    width: 567px;
+    height: 427px;
+    padding-right: 156px;
+    padding-top: 156px;
+    padding-bottom: 158px;
+}
+
+/* thrid section end */
+
+
+
+/* start footer */
+
+.logo-dimension{
+height: 100px;
+}
+
+
+
+.all-icons {
+    font-size: 28px;
+    justify-content: center;
+    align-items: center;    
+}
+
+.fontawesome-color{
+    color: #969BAB;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a-small-footnote{
+    display: flex;
+    font-size: 18px;
+
+}
